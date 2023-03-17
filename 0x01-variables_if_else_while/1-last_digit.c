@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - print the latest digit of a number and compare it
  * Return: 0
@@ -9,7 +10,7 @@ int main(void)
 	int n, last;
 
 	srand(time(0));
-	n = rand() - RAND_MAX() / 2;
+	n = rand() - RAND_MAX / 2;
 	last = n % 10;
 	if (last == 0)
 	{
