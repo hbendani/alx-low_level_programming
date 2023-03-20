@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - print all com of 3 digit
  * Return: 0
  */
@@ -17,9 +17,9 @@ int main(void)
 				{
 					if (z > j)
 					{
-						putchar(i%10 +'0');
-						putchar(j%10 + '0');
-						putchar(z%10 + '0');
+						putchar(i % 10 + '0');
+						putchar(j % 10 + '0');
+						putchar(z % 10 + '0');
 						if (i < 7)
 						{
 							putchar(',');
