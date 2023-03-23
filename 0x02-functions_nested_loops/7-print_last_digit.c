@@ -10,7 +10,9 @@ int print_last_digit(int n)
 	if (last < 0)
 	{
 		last = last * -1;
+		printf("%d", last);
 		return (last);
 	}
+	printf("%d", last);
 	return (last);
 }

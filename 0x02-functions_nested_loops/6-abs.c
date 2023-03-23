@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * _abs - computes the absolute value of an integer
+ *@n: the number to convert
  * Return: number pos
  */
 int _abs(int n)
