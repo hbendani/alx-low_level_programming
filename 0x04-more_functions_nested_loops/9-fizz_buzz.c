@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - print all the numbers from 
+ * main - print all the numbers from
  * Return: 0
  */
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 		{
 			printf(" Buzz");
 		}
-		else if (n  ==1 )
+		else if (n == 1)
 		{
 			printf("%d", n);
 		}
