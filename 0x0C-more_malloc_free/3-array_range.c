@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * array_range - creates an array of integers
  * @min: min
@@ -18,7 +19,7 @@ int *array_range(int min, int max)
 	if (!pointer)
 	return (NULL);
 
-	for (i = 0; i < len; i++)
+	for (i = 0; i < l; i++)
 	pointer[i] = min++;
 
 	return (pointer);
