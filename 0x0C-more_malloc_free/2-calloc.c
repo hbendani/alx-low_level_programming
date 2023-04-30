@@ -8,17 +8,19 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int i;
+	int i, j;
 	char *pointer;
 
 	if (size == 0 || nmemb == 0)
 	return (NULL);
 
-	pointer = malloc(nmemb * size);
+	j = nmemb * size;
+
+	pointer = malloc(j);
 	if (pointer == NULL)
 	return (NULL);
 
-	while (i < (nmemb * size))
+	while (i < j)
 	{
 		pointer[i] = 0;
 		i++;
